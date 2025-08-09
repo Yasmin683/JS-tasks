@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta lang="en">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <button>changesize</button>
+    
+
+<style>
+
+
+button{
+
+    width: 150px;
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script >
+let btn = document.querySelector("button");
+
+
+function changesize(){
+  if(btn.style.width =="150px"){
+    btn.style.width = "300px";
+  }else{
+
+    btn.style.width = "150px";
+  }
+
+
+
+
+
+
+
+
+
+}
+btn.addEventListener("click",changesize);
+
+
+    </script>
+</body>

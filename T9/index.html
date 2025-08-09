@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+
+
+    <meta lang="en">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+ <button>changep</button>
+ <p>hi, welcome to our website .wish blessing you</p>
+
+<style>
+    p{
+
+
+
+    font-size: x-large;
+    font-style: normal;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script >
+
+let btn = document.querySelector("button");
+let p_body = document.querySelector("p");
+
+
+function changepstyle(){
+  if(p_body.style.fontStyle=="normal"){
+
+    p_body.style.fontStyle="italic";
+  }else{
+    p_body.style.fontStyle="normal";
+  }
+
+
+
+}
+btn.addEventListener("click" , changepstyle);
+
+    </script>
+</body>

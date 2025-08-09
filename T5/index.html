@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+
+    <meta lang="en">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <button>changebg</button>
+
+ <style>
+
+  button{
+
+
+    width: 200px;
+    background-color: red;
+    
+ }
+
+ </style>
+
+
+
+
+
+
+
+
+
+
+
+ <script >
+
+  let btn = document.querySelector("button");
+
+  function changebg(){
+   if(btn.style.backgroundColor=="red"){
+
+
+    btn.style.backgroundColor="green";
+   }else{
+     btn.style.backgroundColor="red";
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+}
+
+btn.addEventListener("click" , changebg);
+
+
+    </script>
+</body>

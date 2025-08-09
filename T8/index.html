@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+
+    <meta lang="en">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <button>changesmth</button>
+
+<style>
+
+button{
+
+    width: 200px;
+    height: 70px;
+    background-color: white;
+   color: brown;
+  
+   
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+    <script >
+
+        let btn=document.querySelector("button");
+
+
+
+
+function changebtn(){
+  if(btn.style.backgroundColor=="blue"){
+
+
+    btn.style.backgroundColor="black";
+    btn.style.color="white";
+  }else{
+     btn.style.backgroundColor="blue";
+     btn.style.color="brown";
+  }
+
+
+
+
+
+}
+btn.addEventListener("click" , changebtn);
+    </script>
+</body>

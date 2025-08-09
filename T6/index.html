@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+
+    <meta lang="en">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <h1>welcome to our website</h1>
+  <button>change</button>
+  <style>
+
+    h1{
+
+    font-size: small;
+
+
+}
+
+  </style>
+
+
+
+
+
+
+
+
+
+
+    <script >
+
+let hid = document.querySelector("h1");
+let btn = document.querySelector("button");
+
+
+function changesize(){
+
+    if(hid.style.fontSize=="small"){
+
+
+        hid.style.fontSize="large";
+    }else{
+
+        hid.style.fontSize="small";
+    }
+}
+btn.addEventListener("click" , changesize);
+
+
+    </script>
+</body>
